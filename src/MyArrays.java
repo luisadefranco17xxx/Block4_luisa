@@ -2,11 +2,12 @@ import java.util.Arrays;
 
 public class MyArrays {
     public static void main(String[] args) {
-        int[] my_array={1,2,3,4};
-        int[] my_newArray= new int[4];
+        int[] my_array={1,2,3,4,55,43,232,3};
+        int[] my_newArray= new int[my_array.length];
         printArray(my_array);
 
         System.out.println(containsNumber(my_array,2));
+        System.out.println(containsNumber(my_array,27));
         System.out.println(calculateSumm(my_array));
 
         System.out.println(Arrays.toString(reverse(my_array)));
